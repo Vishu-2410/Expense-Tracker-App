@@ -1,0 +1,61 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+.main-container{
+    margin: 3% 7% ;
+    background-color: white;
+    padding: 40px;
+}
+.transaction-cont table{
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 50px 100px;
+    padding: 20px;
+    /* text-align: center; */
+}
+.yellow{
+    color: white;
+    background-color: orange;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+ .red{
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.trans-cont{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px;
+    margin-left:32%;
+    width: 35%;
+}
+.trans-cont input{
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.trans-cont input:focus{
+    border: 1px solid black;
+    box-shadow: none;
+}
+.trans-cont button{
+    background-color: blueviolet;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+
+}
